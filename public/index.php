@@ -28,7 +28,7 @@ $recupDB = mysqli_query($connectDB, $requetDB) or die("réessaye y a un soucis d
 $nbUser = mysqli_num_rows($recupDB);
 //et metons le resultat dans un tableau associatif
 $resultRecupDB = mysqli_fetch_all($recupDonneesDB, MYSQLI_ASSOC);
-var_dump($connectDB, $requetDB, $resultRecupDB, $recupDB);
+//var_dump($connectDB, $requetDB, $resultRecupDB, $recupDB);
 
 /* maintenant va faloir faire une imense condition pour traité c'est donnée pour le formulaire avec un test de conexion  */
 
